@@ -1,9 +1,9 @@
 # packer
-We met a packer issue on OCP platform, which will cause the temporary VM cannot be deleted after packer build.
+We met a packer issue on OpenStack platform, which will cause the temporary VM cannot be deleted after packer build.
 
 [A PR](https://github.com/hashicorp/packer-plugin-openstack/pull/94) has been committed to upstream to fix the issue.
 
-But after more than one month, nobody reviews it.
+But after more than one month, nobody reviews it yet.
 
 So I create this repository and a Jenkins pipeline to build packer binary with this patch.
 
